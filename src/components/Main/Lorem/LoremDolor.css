@@ -1,0 +1,41 @@
+.dolor__body{
+   background: #4B321D;
+   border-radius: 16px;
+}
+.dolor__items{
+   padding: 84px 60px;
+}
+.dolor__title{
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 125%;
+   color: #F1F1EB;
+   margin-bottom: 5%;
+}
+@media(max-width:1200px){
+   .dolor__title{
+      font-size: calc(50px + 1.1278195489vw);
+   }
+}
+@media(max-width:992px){
+   .dolor__title{
+      font-size: calc(20px + 1.1278195489vw);
+   }
+}
+
+.dolor__name{
+   font-size: 26px;
+   line-height: 140%;
+   color: #F1F1EB;
+}
+@media(max-width:767px){
+   .dolor__title{
+      font-size: calc(13px + 1.1278195489vw);
+   }
+   .dolor__name{
+      font-size: calc(10px + 1.1278195489vw);
+   }
+   .dolor__items{
+      padding: 42px 30px;
+   }
+}

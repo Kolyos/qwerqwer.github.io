@@ -1,0 +1,63 @@
+.header__container{
+   max-width: 1350px;
+   padding: 0 15px 0 15px;
+   margin: 0 auto;
+}
+.header__body{
+   padding: 40px 0px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 90px;
+}
+.burger_btn{
+   display: none;
+}
+@media(max-width: 900px){
+   .header__body:before{
+      content: " ";
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 80px;
+      width: 100%;
+      background-color:rgb(120, 116, 116);
+      z-index: 10;
+   }
+   .burger_btn{
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: fixed;
+      margin-left: 30px;
+      cursor: pointer;
+      z-index: 15;
+      top: 20px;
+      right: 50px;
+   }
+   .burger_btn::before{
+      content: " ";
+      position: absolute;
+      top: 0;
+      width: 30px;
+      height: 3px;
+      border-radius: 20%;
+      background-color: black;
+   }
+   .burger_btn span{
+      position: absolute;
+      top: 45%;
+      width: 30px;
+      height: 3px;
+      border-radius: 20%;
+      background-color: black;
+   }
+   .burger_btn::after{
+      content: " ";
+      position: absolute;
+      bottom: 0;
+      width: 30px;
+      height: 3px;
+      border-radius: 20%;
+      background-color: black;
+   }
+}

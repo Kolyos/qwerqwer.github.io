@@ -1,0 +1,18 @@
+.brandmain__title{
+   margin-bottom: 20%;
+}
+/* .title__item{
+
+}  */
+.title__item p{
+   font-size: calc(70px + 1.1278195489vw);
+   line-height: 125%;
+   color: #4B321D;
+   font-weight: 700;
+}
+@media(max-width:980px){
+   .title__item p{
+      font-size: calc(16px + 1.1278195489vw);
+      text-align: center;
+   }
+}

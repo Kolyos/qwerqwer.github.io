@@ -1,0 +1,7 @@
+@media(max-width:900px){
+   svg{
+      position: fixed;
+      top: 20px;
+      z-index: 10;
+   }
+}
